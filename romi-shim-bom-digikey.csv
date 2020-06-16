@@ -1,7 +1,7 @@
 "Index","Quantity","Part Number","Manufacturer Part Number","Description","Customer Reference","Available","Backorder","Unit Price","Extended Price USD"
 "1","2","2057-PH1-04-UA-ND","PH1-04-UA","CONN HEADER VERT 4POS 2.54MM","","2","0","0.10000","0.20"
 "2","4","2057-PH1-03-UA-ND","PH1-03-UA","CONN HEADER VERT 3POS 2.54MM","","4","0","0.10000","0.40"
-"3","1","2057-PH1-06-UA-ND","PH1-06-UA","CONN HEADER VERT 6POS 2.54MM","","1","0","0.12000","0.12"
+"3","3","2057-PH1-06-UA-ND","PH1-06-UA","CONN HEADER VERT 6POS 2.54MM","","1","0","0.12000","0.12"
 "4","1","2057-PH1-02-UA-ND","PH1-02-UA","CONN HEADER VERT 2POS 2.54MM","","1","0","0.10000","0.10"
 "5","1","S7083-ND","PPTC152LFBN-RC","CONN HDR 30POS 0.1 TIN PCB","","1","0","1.82000","1.82"
 "6","3","S7013-ND","PPTC151LFBN-RC","CONN HDR 15POS 0.1 TIN PCB","","1","0","0.98000","0.98"
