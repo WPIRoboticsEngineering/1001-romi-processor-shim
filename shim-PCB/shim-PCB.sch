@@ -480,13 +480,13 @@ Wire Wire Line
 	1950 7100 1950 7200
 Wire Wire Line
 	1700 7100 1700 7200
-Text GLabel 3550 4750 2    50   Input ~ 0
-GPIO12
-Text GLabel 3550 4650 2    50   Input ~ 0
-GPIO25
-Text GLabel 3550 4950 2    50   Input ~ 0
-GPIO4
 Text GLabel 3550 5050 2    50   Input ~ 0
+GPIO12
+Text GLabel 3550 4950 2    50   Input ~ 0
+GPIO25
+Text GLabel 3550 4650 2    50   Input ~ 0
+GPIO4
+Text GLabel 3550 4750 2    50   Input ~ 0
 GPIO13
 Wire Wire Line
 	3550 4650 3450 4650
