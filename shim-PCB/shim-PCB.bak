@@ -1254,4 +1254,8 @@ Wire Wire Line
 	2850 1700 2850 1750
 Text Notes 2250 1750 0    50   ~ 0
 Might have to\nreplace w 10k\nSee issue #11
+Text Notes 3000 5050 1    50   ~ 0
+Right
+Text Notes 3000 4700 1    50   ~ 0
+Left
 $EndSCHEMATC
