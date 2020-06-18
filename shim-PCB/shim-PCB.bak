@@ -1258,4 +1258,8 @@ Text Notes 3000 5050 1    50   ~ 0
 Right
 Text Notes 3000 4700 1    50   ~ 0
 Left
+Text Notes 850  4700 0    50   ~ 0
+Left
+Text Notes 1000 6550 1    50   ~ 0
+Right
 $EndSCHEMATC

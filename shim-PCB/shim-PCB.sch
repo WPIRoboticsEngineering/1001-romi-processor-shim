@@ -715,7 +715,7 @@ GPIO19
 Text GLabel 6350 1200 2    50   Input ~ 0
 GPIO18
 Text GLabel 6350 1300 2    50   Input ~ 0
-GPIO15
+GPIO5
 Wire Wire Line
 	6350 900  6300 900 
 Wire Wire Line
