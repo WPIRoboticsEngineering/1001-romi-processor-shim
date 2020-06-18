@@ -3,3 +3,5 @@
 *.rules
 *.dsn
 *.bin
+shim-PCB/edge-and-pads.svg/shim-PCB-brd.svg
+*.kicad_pcb-bak
