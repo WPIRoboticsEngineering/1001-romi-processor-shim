@@ -48,39 +48,6 @@ F 3 "~" H 4800 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x15_Female J6
-U 1 1 5EE98E65
-P 3050 2800
-F 0 "J6" H 2942 3685 50  0000 C CNN
-F 1 "ESP-DEVKITC" H 3200 3750 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 3050 2800 50  0001 C CNN
-F 3 "~" H 3050 2800 50  0001 C CNN
-	1    3050 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x15_Female J9
-U 1 1 5EE9C5A3
-P 3450 2800
-F 0 "J9" H 3478 2826 50  0000 L CNN
-F 1 "PROBE-POINT" H 3400 3700 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 3450 2800 50  0001 C CNN
-F 3 "~" H 3450 2800 50  0001 C CNN
-	1    3450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x15_Female J3
-U 1 1 5EE9E1E4
-P 1450 2800
-F 0 "J3" H 1342 3685 50  0000 C CNN
-F 1 "PROBE-POINT" H 1342 3594 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 1450 2800 50  0001 C CNN
-F 3 "~" H 1450 2800 50  0001 C CNN
-	1    1450 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x16_Female J15
 U 1 1 5EE9F4E0
 P 6300 2650
@@ -355,172 +322,6 @@ Wire Wire Line
 	6900 3150 6500 3150
 Wire Wire Line
 	6500 3350 6900 3350
-Text GLabel 3550 2100 2    50   Input ~ 0
-GPIO23
-Text GLabel 3550 2200 2    50   Input ~ 0
-GPIO22
-Text GLabel 3550 2300 2    50   Input ~ 0
-GPIO1
-Text GLabel 3550 2400 2    50   Input ~ 0
-GPIO3
-Text GLabel 3550 2500 2    50   Input ~ 0
-GPIO21
-Text GLabel 3550 2600 2    50   Input ~ 0
-GPIO19
-Text GLabel 3550 2700 2    50   Input ~ 0
-GPIO18
-Text GLabel 3550 2800 2    50   Input ~ 0
-GPIO5
-Text GLabel 3550 2900 2    50   Input ~ 0
-GPIO17
-Text GLabel 3550 3000 2    50   Input ~ 0
-GPIO16
-Text GLabel 3550 3100 2    50   Input ~ 0
-GPIO4
-Text GLabel 3550 3200 2    50   Input ~ 0
-GPIO2
-Text GLabel 3550 3300 2    50   Input ~ 0
-GPIO15
-Text GLabel 1150 2200 0    50   Input ~ 0
-GPIO36
-Text GLabel 1150 2300 0    50   Input ~ 0
-GPIO39
-Text GLabel 1150 2400 0    50   Input ~ 0
-GPIO34
-Text GLabel 1150 2500 0    50   Input ~ 0
-GPIO35
-Text GLabel 1150 2600 0    50   Input ~ 0
-GPIO32
-Text GLabel 1150 2700 0    50   Input ~ 0
-GPIO33
-Text GLabel 1150 2800 0    50   Input ~ 0
-GPIO25
-Text GLabel 1150 2900 0    50   Input ~ 0
-GPIO26
-Text GLabel 1150 3000 0    50   Input ~ 0
-GPIO27
-Text GLabel 1150 3100 0    50   Input ~ 0
-GPIO14
-Text GLabel 1150 3200 0    50   Input ~ 0
-GPIO12
-Text GLabel 1150 3300 0    50   Input ~ 0
-GPIO13
-$Comp
-L power:GND #PWR0106
-U 1 1 5EECBBD9
-P 800 3400
-F 0 "#PWR0106" H 800 3150 50  0001 C CNN
-F 1 "GND" V 805 3272 50  0000 R CNN
-F 2 "" H 800 3400 50  0001 C CNN
-F 3 "" H 800 3400 50  0001 C CNN
-	1    800  3400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0107
-U 1 1 5EECD60A
-P 1000 3500
-F 0 "#PWR0107" H 1000 3350 50  0001 C CNN
-F 1 "+5V" V 1015 3628 50  0000 L CNN
-F 2 "" H 1000 3500 50  0001 C CNN
-F 3 "" H 1000 3500 50  0001 C CNN
-	1    1000 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5EECEFB1
-P 3550 3400
-F 0 "#PWR0108" H 3550 3150 50  0001 C CNN
-F 1 "GND" V 3555 3272 50  0000 R CNN
-F 2 "" H 3550 3400 50  0001 C CNN
-F 3 "" H 3550 3400 50  0001 C CNN
-	1    3550 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0109
-U 1 1 5EECF407
-P 3550 3500
-F 0 "#PWR0109" H 3550 3350 50  0001 C CNN
-F 1 "+3.3V" V 3565 3628 50  0000 L CNN
-F 2 "" H 3550 3500 50  0001 C CNN
-F 3 "" H 3550 3500 50  0001 C CNN
-	1    3550 3500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 2100 3250 2100
-Wire Wire Line
-	3250 2200 3550 2200
-Wire Wire Line
-	3550 2300 3250 2300
-Wire Wire Line
-	3550 2400 3250 2400
-Wire Wire Line
-	3550 2500 3250 2500
-Wire Wire Line
-	3550 2600 3250 2600
-Wire Wire Line
-	3250 2700 3550 2700
-Wire Wire Line
-	3550 2800 3250 2800
-Wire Wire Line
-	3550 2900 3250 2900
-Wire Wire Line
-	3250 3000 3550 3000
-Wire Wire Line
-	3550 3100 3250 3100
-Wire Wire Line
-	3550 3200 3250 3200
-Wire Wire Line
-	3550 3300 3250 3300
-Wire Wire Line
-	3550 3400 3250 3400
-Wire Wire Line
-	3250 3500 3550 3500
-Connection ~ 1650 2200
-Wire Wire Line
-	1650 2200 1150 2200
-Connection ~ 1650 2300
-Wire Wire Line
-	1650 2300 1150 2300
-Connection ~ 1650 2400
-Wire Wire Line
-	1650 2400 1150 2400
-Connection ~ 1650 2500
-Wire Wire Line
-	1650 2500 1150 2500
-Connection ~ 1650 2600
-Wire Wire Line
-	1650 2600 1150 2600
-Wire Wire Line
-	1150 2700 1650 2700
-Connection ~ 1650 2700
-Connection ~ 1650 2800
-Wire Wire Line
-	1650 2800 1150 2800
-Wire Wire Line
-	1150 2900 1650 2900
-Connection ~ 1650 2900
-Connection ~ 1650 3000
-Wire Wire Line
-	1650 3000 1150 3000
-Connection ~ 1650 3100
-Wire Wire Line
-	1650 3100 1150 3100
-Connection ~ 1650 3200
-Wire Wire Line
-	1650 3200 1150 3200
-Connection ~ 1650 3300
-Wire Wire Line
-	1650 3300 1150 3300
-Connection ~ 1650 3400
-Wire Wire Line
-	1650 3400 800  3400
-Wire Wire Line
-	1000 3500 1650 3500
-Connection ~ 1650 3500
 $Comp
 L power:+5V #PWR0110
 U 1 1 5EF5DA34
@@ -566,9 +367,9 @@ F 3 "" H 2100 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2100 4650 2    50   Input ~ 0
-GPIO26
+GPIO27
 Text GLabel 2100 4750 2    50   Input ~ 0
-GPIO34
+GPIO26
 Text GLabel 2050 6500 2    50   Input ~ 0
 GPIO17
 Text GLabel 2050 6600 2    50   Input ~ 0
@@ -713,7 +514,7 @@ $EndComp
 Text GLabel 2050 1200 2    50   Input ~ 0
 GPIO33
 Text GLabel 2050 1300 2    50   Input ~ 0
-GPIO32
+GPIO34
 $Comp
 L power:+5V #PWR0118
 U 1 1 5F02EA50
@@ -831,114 +632,13 @@ Wire Wire Line
 Wire Wire Line
 	5050 1600 5000 1600
 Text GLabel 5100 1400 2    50   Input ~ 0
-GPIO14
+GPIO32
 Text GLabel 5100 1500 2    50   Input ~ 0
-GPIO27
+GPIO14
 Wire Wire Line
 	5100 1400 5000 1400
 Wire Wire Line
 	5100 1500 5000 1500
-Connection ~ 3250 2100
-Connection ~ 3250 3000
-Connection ~ 3250 3100
-Connection ~ 3250 3200
-Connection ~ 3250 3300
-Connection ~ 3250 3400
-Connection ~ 3250 3500
-Connection ~ 3250 2200
-Connection ~ 3250 2300
-Connection ~ 3250 2400
-Connection ~ 3250 2500
-Connection ~ 3250 2600
-Connection ~ 3250 2700
-Connection ~ 3250 2800
-Connection ~ 3250 2900
-Wire Wire Line
-	1650 2100 2050 2100
-Wire Wire Line
-	1650 3000 2050 3000
-Wire Wire Line
-	1650 3100 2050 3100
-Wire Wire Line
-	1650 3200 2050 3200
-Wire Wire Line
-	1650 3300 2050 3300
-Wire Wire Line
-	1650 3400 2050 3400
-Wire Wire Line
-	1650 3500 2050 3500
-Wire Wire Line
-	1650 2200 2050 2200
-Wire Wire Line
-	1650 2300 2050 2300
-Wire Wire Line
-	1650 2400 2050 2400
-Wire Wire Line
-	1650 2500 2050 2500
-Wire Wire Line
-	1650 2600 2050 2600
-Wire Wire Line
-	1650 2700 2050 2700
-Wire Wire Line
-	1650 2800 2050 2800
-Wire Wire Line
-	1650 2900 2050 2900
-$Comp
-L Connector_Generic:Conn_02x15_Odd_Even J5
-U 1 1 5F1D1EC4
-P 2250 2800
-F 0 "J5" H 2300 3717 50  0000 C CNN
-F 1 "Conn_02x15_Odd_Even" H 2300 3626 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical" H 2250 2800 50  0001 C CNN
-F 3 "~" H 2250 2800 50  0001 C CNN
-	1    2250 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 2100 2050 2100
-Connection ~ 2050 2100
-Wire Wire Line
-	2550 2200 2050 2200
-Connection ~ 2050 2200
-Wire Wire Line
-	2550 2300 2050 2300
-Connection ~ 2050 2300
-Wire Wire Line
-	2550 2400 2050 2400
-Connection ~ 2050 2400
-Wire Wire Line
-	2550 2500 2050 2500
-Connection ~ 2050 2500
-Wire Wire Line
-	2550 2600 2050 2600
-Connection ~ 2050 2600
-Wire Wire Line
-	2550 2700 2050 2700
-Connection ~ 2050 2700
-Wire Wire Line
-	2550 2800 2050 2800
-Connection ~ 2050 2800
-Wire Wire Line
-	2550 2900 2050 2900
-Connection ~ 2050 2900
-Wire Wire Line
-	2550 3000 2050 3000
-Connection ~ 2050 3000
-Wire Wire Line
-	2050 3100 2550 3100
-Connection ~ 2050 3100
-Wire Wire Line
-	2550 3200 2050 3200
-Connection ~ 2050 3200
-Wire Wire Line
-	2050 3300 2550 3300
-Connection ~ 2050 3300
-Wire Wire Line
-	2050 3400 2550 3400
-Connection ~ 2050 3400
-Wire Wire Line
-	2550 3500 2050 3500
-Connection ~ 2050 3500
 $Comp
 L Connector:Conn_01x06_Male J12
 U 1 1 5EEACFCA
@@ -973,7 +673,7 @@ F 3 "" H 6350 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4200 4550 2    50   Input ~ 0
-GPIO5
+GPIO15
 Wire Wire Line
 	3450 4550 4100 4550
 Wire Wire Line
@@ -1050,4 +750,446 @@ F 3 "~" H 5200 4200 50  0001 C CNN
 	1    5200 4200
 	1    0    0    -1  
 $EndComp
+Text Notes 4650 1400 0    50   ~ 0
+trig
+Text Notes 4650 1500 0    50   ~ 0
+rcho
+$Comp
+L Connector:Conn_01x19_Female J?
+U 1 1 5F01D059
+P 2500 2950
+F 0 "J?" H 2528 2930 50  0000 L CNN
+F 1 "Conn_01x19_Female" H 2528 2885 50  0001 L CNN
+F 2 "" H 2500 2950 50  0001 C CNN
+F 3 "~" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x19_Female J?
+U 1 1 5F01FD46
+P 3000 2950
+F 0 "J?" H 2892 3943 50  0000 C CNN
+F 1 "Conn_01x19_Female" H 2892 3944 50  0001 C CNN
+F 2 "" H 3000 2950 50  0001 C CNN
+F 3 "~" H 3000 2950 50  0001 C CNN
+	1    3000 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F044560
+P 2100 2050
+F 0 "#PWR?" H 2100 1900 50  0001 C CNN
+F 1 "+3.3V" V 2115 2178 50  0000 L CNN
+F 2 "" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2250 2250 0    50   Input ~ 0
+GPIO36
+Text GLabel 2250 2350 0    50   Input ~ 0
+GPIO39
+Text GLabel 2250 2450 0    50   Input ~ 0
+GPIO34
+Text GLabel 2250 2550 0    50   Input ~ 0
+GPIO35
+Text GLabel 2250 2650 0    50   Input ~ 0
+GPIO32
+Text GLabel 2250 2750 0    50   Input ~ 0
+GPIO33
+Text GLabel 2250 2850 0    50   Input ~ 0
+GPIO25
+Text GLabel 2250 2950 0    50   Input ~ 0
+GPIO26
+Text GLabel 2250 3050 0    50   Input ~ 0
+GPIO27
+Text GLabel 2250 3150 0    50   Input ~ 0
+GPIO14
+Text GLabel 2250 3250 0    50   Input ~ 0
+GPIO12
+$Comp
+L power:GND #PWR?
+U 1 1 5F04AAFB
+P 1850 3350
+F 0 "#PWR?" H 1850 3100 50  0001 C CNN
+F 1 "GND" V 1855 3222 50  0000 R CNN
+F 2 "" H 1850 3350 50  0001 C CNN
+F 3 "" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 2250 3450 0    50   Input ~ 0
+GPIO13
+Text GLabel 2250 3550 0    50   Input ~ 0
+GPIO9
+Text GLabel 2250 3650 0    50   Input ~ 0
+GPIO10
+Text GLabel 2250 3750 0    50   Input ~ 0
+GPIO11
+$Comp
+L power:+5V #PWR?
+U 1 1 5F04D5C5
+P 1900 3850
+F 0 "#PWR?" H 1900 3700 50  0001 C CNN
+F 1 "+5V" V 1915 3978 50  0000 L CNN
+F 2 "" H 1900 3850 50  0001 C CNN
+F 3 "" H 1900 3850 50  0001 C CNN
+	1    1900 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 3850 1900 3850
+Wire Wire Line
+	1850 3350 2300 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5F0613E4
+P 3500 2050
+F 0 "#PWR?" H 3500 1800 50  0001 C CNN
+F 1 "GND" V 3505 1922 50  0000 R CNN
+F 2 "" H 3500 2050 50  0001 C CNN
+F 3 "" H 3500 2050 50  0001 C CNN
+	1    3500 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3300 2150 2    50   Input ~ 0
+GPIO23
+Text GLabel 3300 2250 2    50   Input ~ 0
+GPIO22
+Text GLabel 3300 2350 2    50   Input ~ 0
+GPIO1
+Text GLabel 3300 2450 2    50   Input ~ 0
+GPIO3
+Text GLabel 3300 2550 2    50   Input ~ 0
+GPIO21
+Text GLabel 3300 2750 2    50   Input ~ 0
+GPIO19
+Text GLabel 3300 2850 2    50   Input ~ 0
+GPIO18
+Text GLabel 3300 2950 2    50   Input ~ 0
+GPIO5
+Text GLabel 3300 3050 2    50   Input ~ 0
+GPIO17
+Text GLabel 3300 3150 2    50   Input ~ 0
+GPIO16
+Text GLabel 3300 3250 2    50   Input ~ 0
+GPIO4
+Text GLabel 3300 3350 2    50   Input ~ 0
+GPIO0
+Text GLabel 3300 3450 2    50   Input ~ 0
+GPIO2
+Text GLabel 3300 3550 2    50   Input ~ 0
+GPIO15
+Text GLabel 3300 3650 2    50   Input ~ 0
+GPIO8
+Text GLabel 3300 3750 2    50   Input ~ 0
+GPIO7
+Text GLabel 3300 3850 2    50   Input ~ 0
+GPIO6
+$Comp
+L power:GND #PWR?
+U 1 1 5F072993
+P 3500 2650
+F 0 "#PWR?" H 3500 2400 50  0001 C CNN
+F 1 "GND" V 3505 2522 50  0000 R CNN
+F 2 "" H 3500 2650 50  0001 C CNN
+F 3 "" H 3500 2650 50  0001 C CNN
+	1    3500 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2050 3500 2050
+Wire Wire Line
+	3200 2650 3500 2650
+Wire Wire Line
+	3200 2150 3300 2150
+Wire Wire Line
+	3200 2250 3300 2250
+Wire Wire Line
+	3200 2350 3300 2350
+Wire Wire Line
+	3300 2450 3200 2450
+Wire Wire Line
+	3200 2550 3300 2550
+Wire Wire Line
+	3300 2750 3200 2750
+Wire Wire Line
+	3200 2850 3300 2850
+Wire Wire Line
+	3300 2950 3200 2950
+Wire Wire Line
+	3300 3050 3200 3050
+Wire Wire Line
+	3300 3150 3200 3150
+Wire Wire Line
+	3300 3250 3200 3250
+Wire Wire Line
+	3300 3350 3200 3350
+Wire Wire Line
+	3300 3450 3200 3450
+Wire Wire Line
+	3300 3550 3200 3550
+Wire Wire Line
+	3300 3650 3200 3650
+Wire Wire Line
+	3300 3750 3200 3750
+Wire Wire Line
+	3300 3850 3200 3850
+Wire Wire Line
+	2300 2050 2100 2050
+Wire Wire Line
+	2300 2250 2250 2250
+Wire Wire Line
+	2300 2350 2250 2350
+Wire Wire Line
+	2300 2450 2250 2450
+Wire Wire Line
+	2300 2550 2250 2550
+Wire Wire Line
+	2300 2650 2250 2650
+Wire Wire Line
+	2300 2750 2250 2750
+Wire Wire Line
+	2300 2850 2250 2850
+Wire Wire Line
+	2300 2950 2250 2950
+Wire Wire Line
+	2300 3050 2250 3050
+Wire Wire Line
+	2300 3150 2250 3150
+Wire Wire Line
+	2300 3250 2250 3250
+Wire Wire Line
+	2300 3450 2250 3450
+Wire Wire Line
+	2300 3550 2250 3550
+Wire Wire Line
+	2250 3650 2300 3650
+Wire Wire Line
+	2300 3750 2250 3750
+Text GLabel 2250 2150 0    50   Input ~ 0
+EN
+Wire Wire Line
+	2300 2150 2250 2150
+$Comp
+L Connector:Conn_01x19_Female J?
+U 1 1 5F2652BC
+P 1500 2950
+F 0 "J?" H 1528 2930 50  0000 L CNN
+F 1 "Conn_01x19_Female" H 1528 2885 50  0001 L CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 "~" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F2652C2
+P 1100 2050
+F 0 "#PWR?" H 1100 1900 50  0001 C CNN
+F 1 "+3.3V" V 1115 2178 50  0000 L CNN
+F 2 "" H 1100 2050 50  0001 C CNN
+F 3 "" H 1100 2050 50  0001 C CNN
+	1    1100 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1250 2250 0    50   Input ~ 0
+GPIO36
+Text GLabel 1250 2350 0    50   Input ~ 0
+GPIO39
+Text GLabel 1250 2450 0    50   Input ~ 0
+GPIO34
+Text GLabel 1250 2550 0    50   Input ~ 0
+GPIO35
+Text GLabel 1250 2650 0    50   Input ~ 0
+GPIO32
+Text GLabel 1250 2750 0    50   Input ~ 0
+GPIO33
+Text GLabel 1250 2850 0    50   Input ~ 0
+GPIO25
+Text GLabel 1250 2950 0    50   Input ~ 0
+GPIO26
+Text GLabel 1250 3050 0    50   Input ~ 0
+GPIO27
+Text GLabel 1250 3150 0    50   Input ~ 0
+GPIO14
+Text GLabel 1250 3250 0    50   Input ~ 0
+GPIO12
+$Comp
+L power:GND #PWR?
+U 1 1 5F2652D3
+P 850 3350
+F 0 "#PWR?" H 850 3100 50  0001 C CNN
+F 1 "GND" V 855 3222 50  0000 R CNN
+F 2 "" H 850 3350 50  0001 C CNN
+F 3 "" H 850 3350 50  0001 C CNN
+	1    850  3350
+	0    1    1    0   
+$EndComp
+Text GLabel 1250 3450 0    50   Input ~ 0
+GPIO13
+Text GLabel 1250 3550 0    50   Input ~ 0
+GPIO9
+Text GLabel 1250 3650 0    50   Input ~ 0
+GPIO10
+Text GLabel 1250 3750 0    50   Input ~ 0
+GPIO11
+$Comp
+L power:+5V #PWR?
+U 1 1 5F2652DD
+P 900 3850
+F 0 "#PWR?" H 900 3700 50  0001 C CNN
+F 1 "+5V" V 915 3978 50  0000 L CNN
+F 2 "" H 900 3850 50  0001 C CNN
+F 3 "" H 900 3850 50  0001 C CNN
+	1    900  3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 3850 900  3850
+Wire Wire Line
+	850  3350 1300 3350
+Wire Wire Line
+	1300 2050 1100 2050
+Wire Wire Line
+	1300 2250 1250 2250
+Wire Wire Line
+	1300 2350 1250 2350
+Wire Wire Line
+	1300 2450 1250 2450
+Wire Wire Line
+	1300 2550 1250 2550
+Wire Wire Line
+	1300 2650 1250 2650
+Wire Wire Line
+	1300 2750 1250 2750
+Wire Wire Line
+	1300 2850 1250 2850
+Wire Wire Line
+	1300 2950 1250 2950
+Wire Wire Line
+	1300 3050 1250 3050
+Wire Wire Line
+	1300 3150 1250 3150
+Wire Wire Line
+	1300 3250 1250 3250
+Wire Wire Line
+	1300 3450 1250 3450
+Wire Wire Line
+	1300 3550 1250 3550
+Wire Wire Line
+	1250 3650 1300 3650
+Wire Wire Line
+	1300 3750 1250 3750
+Text GLabel 1250 2150 0    50   Input ~ 0
+EN
+Wire Wire Line
+	1300 2150 1250 2150
+$Comp
+L Connector:Conn_01x19_Female J?
+U 1 1 5F2A4CB9
+P 3900 2950
+F 0 "J?" H 3792 3943 50  0000 C CNN
+F 1 "Conn_01x19_Female" H 3792 3944 50  0001 C CNN
+F 2 "" H 3900 2950 50  0001 C CNN
+F 3 "~" H 3900 2950 50  0001 C CNN
+	1    3900 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2A4CBF
+P 4400 2050
+F 0 "#PWR?" H 4400 1800 50  0001 C CNN
+F 1 "GND" V 4405 1922 50  0000 R CNN
+F 2 "" H 4400 2050 50  0001 C CNN
+F 3 "" H 4400 2050 50  0001 C CNN
+	1    4400 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4200 2150 2    50   Input ~ 0
+GPIO23
+Text GLabel 4200 2250 2    50   Input ~ 0
+GPIO22
+Text GLabel 4200 2350 2    50   Input ~ 0
+GPIO1
+Text GLabel 4200 2450 2    50   Input ~ 0
+GPIO3
+Text GLabel 4200 2550 2    50   Input ~ 0
+GPIO21
+Text GLabel 4200 2750 2    50   Input ~ 0
+GPIO19
+Text GLabel 4200 2850 2    50   Input ~ 0
+GPIO18
+Text GLabel 4200 2950 2    50   Input ~ 0
+GPIO5
+Text GLabel 4200 3050 2    50   Input ~ 0
+GPIO17
+Text GLabel 4200 3150 2    50   Input ~ 0
+GPIO16
+Text GLabel 4200 3250 2    50   Input ~ 0
+GPIO4
+Text GLabel 4200 3350 2    50   Input ~ 0
+GPIO0
+Text GLabel 4200 3450 2    50   Input ~ 0
+GPIO2
+Text GLabel 4200 3550 2    50   Input ~ 0
+GPIO15
+Text GLabel 4200 3650 2    50   Input ~ 0
+GPIO8
+Text GLabel 4200 3750 2    50   Input ~ 0
+GPIO7
+Text GLabel 4200 3850 2    50   Input ~ 0
+GPIO6
+$Comp
+L power:GND #PWR?
+U 1 1 5F2A4CD6
+P 4400 2650
+F 0 "#PWR?" H 4400 2400 50  0001 C CNN
+F 1 "GND" V 4405 2522 50  0000 R CNN
+F 2 "" H 4400 2650 50  0001 C CNN
+F 3 "" H 4400 2650 50  0001 C CNN
+	1    4400 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2050 4400 2050
+Wire Wire Line
+	4100 2650 4400 2650
+Wire Wire Line
+	4100 2150 4200 2150
+Wire Wire Line
+	4100 2250 4200 2250
+Wire Wire Line
+	4100 2350 4200 2350
+Wire Wire Line
+	4200 2450 4100 2450
+Wire Wire Line
+	4100 2550 4200 2550
+Wire Wire Line
+	4200 2750 4100 2750
+Wire Wire Line
+	4100 2850 4200 2850
+Wire Wire Line
+	4200 2950 4100 2950
+Wire Wire Line
+	4200 3050 4100 3050
+Wire Wire Line
+	4200 3150 4100 3150
+Wire Wire Line
+	4200 3250 4100 3250
+Wire Wire Line
+	4200 3350 4100 3350
+Wire Wire Line
+	4200 3450 4100 3450
+Wire Wire Line
+	4200 3550 4100 3550
+Wire Wire Line
+	4200 3650 4100 3650
+Wire Wire Line
+	4200 3750 4100 3750
+Wire Wire Line
+	4200 3850 4100 3850
 $EndSCHEMATC
