@@ -1193,12 +1193,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 3850 4100 3850
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J16
 U 1 1 5F30E014
 P 5100 4550
-F 0 "J?" H 5128 4526 50  0000 L CNN
+F 0 "J16" H 5128 4526 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 5128 4435 50  0000 L CNN
-F 2 "" H 5100 4550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5100 4550 50  0001 C CNN
 F 3 "~" H 5100 4550 50  0001 C CNN
 	1    5100 4550
 	1    0    0    -1  
@@ -1206,10 +1206,10 @@ $EndComp
 Text GLabel 4850 4550 0    50   Input ~ 0
 GPIO15
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0135
 U 1 1 5F30EFD3
 P 4800 4700
-F 0 "#PWR?" H 4800 4450 50  0001 C CNN
+F 0 "#PWR0135" H 4800 4450 50  0001 C CNN
 F 1 "GND" V 4805 4572 50  0000 R CNN
 F 2 "" H 4800 4700 50  0001 C CNN
 F 3 "" H 4800 4700 50  0001 C CNN
@@ -1222,4 +1222,36 @@ Wire Wire Line
 	4900 4650 4800 4650
 Wire Wire Line
 	4800 4650 4800 4700
+$Comp
+L Device:D_Zener D6
+U 1 1 5F32D98F
+P 2850 1550
+F 0 "D6" V 2850 1629 50  0000 L CNN
+F 1 "D_Zener" V 2895 1629 50  0001 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 1550 50  0001 C CNN
+F 3 "~" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 2750 1300 0    50   Input ~ 0
+GPIO34
+$Comp
+L power:GND #PWR0136
+U 1 1 5F32EB84
+P 2850 1750
+F 0 "#PWR0136" H 2850 1500 50  0001 C CNN
+F 1 "GND" V 2855 1622 50  0000 R CNN
+F 2 "" H 2850 1750 50  0001 C CNN
+F 3 "" H 2850 1750 50  0001 C CNN
+	1    2850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1300 2850 1300
+Wire Wire Line
+	2850 1300 2850 1400
+Wire Wire Line
+	2850 1700 2850 1750
+Text Notes 2250 1750 0    50   ~ 0
+Might have to\nreplace w 10k\nSee issue #11
 $EndSCHEMATC

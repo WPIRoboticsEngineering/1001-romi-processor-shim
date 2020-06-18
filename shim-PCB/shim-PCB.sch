@@ -1222,4 +1222,36 @@ Wire Wire Line
 	4900 4650 4800 4650
 Wire Wire Line
 	4800 4650 4800 4700
+$Comp
+L Device:D_Zener D6
+U 1 1 5F32D98F
+P 2850 1550
+F 0 "D6" V 2850 1629 50  0000 L CNN
+F 1 "D_Zener" V 2895 1629 50  0001 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 1550 50  0001 C CNN
+F 3 "~" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 2750 1300 0    50   Input ~ 0
+GPIO34
+$Comp
+L power:GND #PWR0136
+U 1 1 5F32EB84
+P 2850 1750
+F 0 "#PWR0136" H 2850 1500 50  0001 C CNN
+F 1 "GND" V 2855 1622 50  0000 R CNN
+F 2 "" H 2850 1750 50  0001 C CNN
+F 3 "" H 2850 1750 50  0001 C CNN
+	1    2850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1300 2850 1300
+Wire Wire Line
+	2850 1300 2850 1400
+Wire Wire Line
+	2850 1700 2850 1750
+Text Notes 2250 1750 0    50   ~ 0
+Might have to\nreplace w 10k\nSee issue #11
 $EndSCHEMATC
