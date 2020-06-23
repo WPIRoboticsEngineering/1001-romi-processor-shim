@@ -19,3 +19,17 @@ shim-PCB/.svg2shenzhen-cache/g824-F.Cu-export-true.hash
 shim-PCB/.svg2shenzhen-cache/images/F.Cu_g824.png
 shim-PCB/.svg2shenzhen-cache/options.pickle
 shim-PCB/.svg2shenzhen-cache/silkscreen.pretty/F.Cu_g824.kicad_mod
+shim-PCB/gerbers/shim-PCB-PTH.drl
+shim-PCB/gerbers/shim-PCB-PTH-drl_map.dxf
+shim-PCB/gerbers/shim-PCB-NPTH.drl
+shim-PCB/gerbers/shim-PCB-NPTH-drl_map.dxf
+shim-PCB/gerbers/shim-PCB-In2_Cu.gbr
+shim-PCB/gerbers/shim-PCB-In1_Cu.gbr
+shim-PCB/gerbers/shim-PCB-F_SilkS.gbr
+shim-PCB/gerbers/shim-PCB-F_Mask.gbr
+shim-PCB/gerbers/shim-PCB-F_Cu.gbr
+shim-PCB/gerbers/shim-PCB-Edge_Cuts.gbr
+shim-PCB/gerbers/shim-PCB-B_SilkS.gbr
+shim-PCB/gerbers/shim-PCB-B_Mask.gbr
+shim-PCB/gerbers/shim-PCB-B_Cu.gbr
+shim-PCB/gerbers.zip
