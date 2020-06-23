@@ -5,3 +5,17 @@
 *.bin
 shim-PCB/edge-and-pads.svg/shim-PCB-brd.svg
 *.kicad_pcb-bak
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/g824-F.Cu-export-true.hash
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/g838-F.SilkS-export-true.hash
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/g842-F.Mask-export-true.hash
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/images/F.Cu_g824.png
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/images/F.Mask_g842.png
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/images/F.SilkS_g838.png
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/options.pickle
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/silkscreen.pretty/F.Cu_g824.kicad_mod
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/silkscreen.pretty/F.Mask_g842.kicad_mod
+shim-PCB/shim-PCB.pretty/.svg2shenzhen-cache/silkscreen.pretty/F.SilkS_g838.kicad_mod
+shim-PCB/.svg2shenzhen-cache/g824-F.Cu-export-true.hash
+shim-PCB/.svg2shenzhen-cache/images/F.Cu_g824.png
+shim-PCB/.svg2shenzhen-cache/options.pickle
+shim-PCB/.svg2shenzhen-cache/silkscreen.pretty/F.Cu_g824.kicad_mod
