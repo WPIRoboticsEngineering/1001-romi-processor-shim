@@ -822,12 +822,6 @@ F 3 "" H 1850 3350 50  0001 C CNN
 $EndComp
 Text GLabel 2250 3450 0    50   Input ~ 0
 GPIO13
-Text GLabel 2250 3550 0    50   Input ~ 0
-GPIO9
-Text GLabel 2250 3650 0    50   Input ~ 0
-GPIO10
-Text GLabel 2250 3750 0    50   Input ~ 0
-GPIO11
 $Comp
 L power:+5V #PWR0108
 U 1 1 5F04D5C5
@@ -882,12 +876,6 @@ Text GLabel 3300 3450 2    50   Input ~ 0
 GPIO2
 Text GLabel 3300 3550 2    50   Input ~ 0
 GPIO15
-Text GLabel 3300 3650 2    50   Input ~ 0
-GPIO8
-Text GLabel 3300 3750 2    50   Input ~ 0
-GPIO7
-Text GLabel 3300 3850 2    50   Input ~ 0
-GPIO6
 $Comp
 L power:GND #PWR0129
 U 1 1 5F072993
@@ -1030,12 +1018,6 @@ F 3 "" H 850 3350 50  0001 C CNN
 $EndComp
 Text GLabel 1250 3450 0    50   Input ~ 0
 GPIO13
-Text GLabel 1250 3550 0    50   Input ~ 0
-GPIO9
-Text GLabel 1250 3650 0    50   Input ~ 0
-GPIO10
-Text GLabel 1250 3750 0    50   Input ~ 0
-GPIO11
 $Comp
 L power:+5V #PWR0132
 U 1 1 5F2652DD
@@ -1137,12 +1119,6 @@ Text GLabel 4200 3450 2    50   Input ~ 0
 GPIO2
 Text GLabel 4200 3550 2    50   Input ~ 0
 GPIO15
-Text GLabel 4200 3650 2    50   Input ~ 0
-GPIO8
-Text GLabel 4200 3750 2    50   Input ~ 0
-GPIO7
-Text GLabel 4200 3850 2    50   Input ~ 0
-GPIO6
 $Comp
 L power:GND #PWR0134
 U 1 1 5F2A4CD6

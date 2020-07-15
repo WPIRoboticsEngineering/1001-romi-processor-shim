@@ -1283,4 +1283,52 @@ Wire Wire Line
 	8000 1200 7900 1200
 Wire Wire Line
 	8000 1300 7900 1300
+NoConn ~ 1800 2750
+NoConn ~ 1800 2450
+NoConn ~ 800  2450
+NoConn ~ 800  2750
+NoConn ~ 5200 2450
+NoConn ~ 7000 2850
+NoConn ~ 800  2250
+NoConn ~ 800  2300
+NoConn ~ 1800 2250
+NoConn ~ 1800 2300
+NoConn ~ 7000 2650
+NoConn ~ 7000 2750
+NoConn ~ 5200 2150
+NoConn ~ 5200 2250
+NoConn ~ 1800 2650
+NoConn ~ 1800 3150
+NoConn ~ 800  3050
+NoConn ~ 800  2950
+NoConn ~ 3700 3050
+NoConn ~ 3700 3150
+NoConn ~ 4600 3050
+NoConn ~ 4600 3150
+NoConn ~ 7000 2050
+NoConn ~ 7000 2150
+NoConn ~ 1800 3050
+NoConn ~ 1800 2950
+NoConn ~ 5200 2550
+NoConn ~ 7000 3050
+NoConn ~ 7000 2550
+NoConn ~ 5200 2750
+NoConn ~ 4600 3250
+NoConn ~ 800  3450
+NoConn ~ 3700 3250
+NoConn ~ 7000 2950
+NoConn ~ 5200 2650
+NoConn ~ 800  2850
+NoConn ~ 800  3250
+NoConn ~ 3700 3550
+NoConn ~ 4600 3550
+NoConn ~ 5200 2350
+Text Notes 8650 2900 0    50   ~ 0
+Free: 23 22 21 19 18 5
+Connection ~ 5200 1950
+Connection ~ 5200 2050
+Connection ~ 7000 1950
+Connection ~ 7000 2250
+Connection ~ 7000 2350
+Connection ~ 7000 2450
 $EndSCHEMATC
