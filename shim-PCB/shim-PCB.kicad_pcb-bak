@@ -20,7 +20,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user)
     (40 Dwgs.User user hide)
@@ -1131,7 +1131,7 @@
   )
 
   (module shim-PCB:silkscreen (layer F.Cu) (tedit 0) (tstamp 5F0FC935)
-    (at 151.26 94.63)
+    (at 151.2 95.12)
     (path /5F13092A)
     (fp_text reference ARTWORK1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
