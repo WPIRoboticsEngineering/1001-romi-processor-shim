@@ -370,9 +370,9 @@ Text GLabel 2100 4650 2    50   Input ~ 0
 GPIO27
 Text GLabel 2100 4750 2    50   Input ~ 0
 GPIO26
-Text GLabel 2050 6500 2    50   Input ~ 0
+Text GLabel 5100 1400 2    50   Input ~ 0
 GPIO17
-Text GLabel 2050 6600 2    50   Input ~ 0
+Text GLabel 5100 1500 2    50   Input ~ 0
 GPIO16
 $Comp
 L Device:D_Zener D1
@@ -631,9 +631,9 @@ Wire Wire Line
 	5050 1300 5000 1300
 Wire Wire Line
 	5050 1600 5000 1600
-Text GLabel 5100 1400 2    50   Input ~ 0
+Text GLabel 2050 6500 2    50   Input ~ 0
 GPIO32
-Text GLabel 5100 1500 2    50   Input ~ 0
+Text GLabel 2050 6600 2    50   Input ~ 0
 GPIO14
 Wire Wire Line
 	5100 1400 5000 1400
@@ -708,8 +708,6 @@ F 3 "" H 4100 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 5150 4100 5200
-Text GLabel 6350 1000 2    50   Input ~ 0
-GPIO23
 Text GLabel 6350 1100 2    50   Input ~ 0
 GPIO19
 Text GLabel 6350 1200 2    50   Input ~ 0
@@ -1325,10 +1323,23 @@ NoConn ~ 4600 3550
 NoConn ~ 5200 2350
 Text Notes 8650 2900 0    50   ~ 0
 Free: 23 22 21 19 18 5
-Connection ~ 5200 1950
-Connection ~ 5200 2050
-Connection ~ 7000 1950
-Connection ~ 7000 2250
-Connection ~ 7000 2350
-Connection ~ 7000 2450
+$Comp
+L Connector:Conn_01x03_Male J18
+U 1 1 5F126D8C
+P 3400 6150
+F 0 "J18" H 3508 6431 50  0000 C CNN
+F 1 "ROMI" H 3508 6340 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3400 6150 50  0001 C CNN
+F 3 "~" H 3400 6150 50  0001 C CNN
+	1    3400 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 6050 2    50   Input ~ 0
+GPIO23
+Text GLabel 3600 6250 2    50   Input ~ 0
+GPIO21
+Text GLabel 6350 1000 2    50   Input ~ 0
+SPI_DO
+Text GLabel 3600 6150 2    50   Input ~ 0
+SPI_DO
 $EndSCHEMATC
