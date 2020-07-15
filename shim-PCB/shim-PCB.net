@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\AlexCamilo\Documents\GitHub\1001-romi-processor-shim\shim-PCB\shim-PCB.sch)
-    (date "7/15/2020 2:51:51 PM")
+    (date "7/15/2020 3:35:46 PM")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -196,7 +196,14 @@
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x03_Male) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5F126D8C)))
+      (tstamp 5F126D8C))
+    (comp (ref ARTWORK1)
+      (value MountingHole)
+      (footprint shim-PCB:silkscreen)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5F13092A)))
   (libparts
     (libpart (lib Connector) (part Conn_01x02_Female)
       (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")

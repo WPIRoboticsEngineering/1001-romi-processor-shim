@@ -1342,4 +1342,15 @@ Text GLabel 6350 1000 2    50   Input ~ 0
 SPI_DO
 Text GLabel 3600 6150 2    50   Input ~ 0
 SPI_DO
+$Comp
+L Mechanical:MountingHole ARTWORK1
+U 1 1 5F13092A
+P 4800 6800
+F 0 "ARTWORK1" H 4900 6846 50  0000 L CNN
+F 1 "MountingHole" H 4900 6755 50  0000 L CNN
+F 2 "shim-PCB:silkscreen" H 4800 6800 50  0001 C CNN
+F 3 "~" H 4800 6800 50  0001 C CNN
+	1    4800 6800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
