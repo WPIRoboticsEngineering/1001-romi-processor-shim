@@ -1,0 +1,13 @@
+Reference, Quantity, Value, Footprint, PN
+D2 D4 D1 D3 D5 D6 ,6,"D_Zener","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal",BZX55B3V9-TAPGICT-ND
+J1 J2 ,2,"ROMI-Encoder",1x06 male,2057-PH1-06-UA-ND
+J11 J10 ,2,"LineSensor",1x3 Female,S7036-ND 
+J12 ,1,"SPI",1x6 Female,S7039-ND 
+J13 ,1,"Ultrasonic.",1x04 Male, 2057-PH1-04-UA-ND
+J14 ,1,"THING","Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical",S7045-ND 
+J15 ,1,"THING","Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical",S7014-ND 
+J16 ,1,"Conn_01x02_Female","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical",2057-PH1-02-UA-ND
+J17 ,1,"i2c",1x04 female,S7037-ND 
+J4 ,1,"ServoAnalog","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical",2057-PH1-04-UA-ND
+J7 ,1,"ROMI","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical",2057-PH1-06-UA-ND
+J8 J18 ,2,"ROMI","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical",S1012EC-03-ND
