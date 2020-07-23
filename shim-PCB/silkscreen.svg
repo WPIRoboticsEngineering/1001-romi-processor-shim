@@ -626,11 +626,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="219.41298"
-     inkscape:cy="34.691065"
+     inkscape:zoom="11.2"
+     inkscape:cx="211.0782"
+     inkscape:cy="38.500134"
      inkscape:document-units="mm"
-     inkscape:current-layer="g824"
+     inkscape:current-layer="g842"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="2050"
@@ -4788,6 +4788,14 @@
          d="m 59.794851,95.712227 a 0.32212851,0.32212851 0 1 0 0,0.644257 h 2.567554 a 0.32212851,0.32212851 0 1 0 0,-0.644257 z"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.64173001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     </g>
+    <rect
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect14455-8-2-79-2"
+       width="8.7010689"
+       height="7.4522667"
+       x="51.820564"
+       y="82.526535"
+       ry="0.51651025" />
   </g>
   <g
      id="g844"
