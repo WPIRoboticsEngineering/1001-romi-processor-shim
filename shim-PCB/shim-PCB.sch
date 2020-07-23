@@ -1293,24 +1293,13 @@ NoConn ~ 4600 3550
 NoConn ~ 5200 2350
 Text Notes 8650 2900 0    50   ~ 0
 Free: 23 22 21 19 18 5
-$Comp
-L Connector:Conn_01x03_Male J18
-U 1 1 5F126D8C
-P 3400 6150
-F 0 "J18" H 3508 6431 50  0000 C CNN
-F 1 "ROMI" H 3508 6340 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3400 6150 50  0001 C CNN
-F 3 "~" H 3400 6150 50  0001 C CNN
-	1    3400 6150
-	1    0    0    -1  
-$EndComp
-Text GLabel 3600 6050 2    50   Input ~ 0
+Text GLabel 3200 6550 0    50   Input ~ 0
 GPIO23
-Text GLabel 3600 6250 2    50   Input ~ 0
+Text GLabel 3800 6550 2    50   Input ~ 0
 GPIO21
 Text GLabel 6350 1000 2    50   Input ~ 0
 SPI_DO
-Text GLabel 3600 6150 2    50   Input ~ 0
+Text GLabel 3500 6750 3    50   Input ~ 0
 SPI_DO
 $Comp
 L Mechanical:MountingHole ARTWORK1
@@ -1389,4 +1378,21 @@ Wire Wire Line
 	5600 1500 5700 1500
 Wire Wire Line
 	5600 950  5600 1000
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 5F229CDD
+P 3500 6550
+F 0 "JP1" H 3500 6754 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 3500 6663 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3500 6550 50  0001 C CNN
+F 3 "~" H 3500 6550 50  0001 C CNN
+	1    3500 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6550 3750 6550
+Wire Wire Line
+	3500 6700 3500 6750
+Wire Wire Line
+	3250 6550 3200 6550
 $EndSCHEMATC
