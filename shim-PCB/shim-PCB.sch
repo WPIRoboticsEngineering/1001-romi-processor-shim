@@ -372,7 +372,7 @@ Text GLabel 2100 4750 2    50   Input ~ 0
 GPIO26
 Text GLabel 5100 1400 2    50   Input ~ 0
 GPIO17
-Text GLabel 5600 1500 2    50   Input ~ 0
+Text GLabel 5700 1500 2    50   Input ~ 0
 GPIO16
 $Comp
 L Device:D_Zener D1
@@ -1346,8 +1346,6 @@ F 3 "~" H 5400 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5500 1500 5600 1500
-Wire Wire Line
 	5000 1500 5300 1500
 $Comp
 L Connector:Conn_01x03_Male J16
@@ -1360,4 +1358,35 @@ F 3 "~" H 5000 5350 50  0001 C CNN
 	1    5000 5350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:D_Zener D7
+U 1 1 5F1ECB50
+P 5600 1150
+F 0 "D7" V 5600 1229 50  0000 L CNN
+F 1 "D_Zener" V 5645 1229 50  0001 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 1150 50  0001 C CNN
+F 3 "~" H 5600 1150 50  0001 C CNN
+	1    5600 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5F1EDCD3
+P 5600 950
+F 0 "#PWR0139" H 5600 700 50  0001 C CNN
+F 1 "GND" V 5605 822 50  0000 R CNN
+F 2 "" H 5600 950 50  0001 C CNN
+F 3 "" H 5600 950 50  0001 C CNN
+	1    5600 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1500 5600 1500
+Wire Wire Line
+	5600 1300 5600 1500
+Connection ~ 5600 1500
+Wire Wire Line
+	5600 1500 5700 1500
+Wire Wire Line
+	5600 950  5600 1000
 $EndSCHEMATC

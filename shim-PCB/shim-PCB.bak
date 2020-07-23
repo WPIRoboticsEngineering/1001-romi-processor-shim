@@ -372,7 +372,7 @@ Text GLabel 2100 4750 2    50   Input ~ 0
 GPIO26
 Text GLabel 5100 1400 2    50   Input ~ 0
 GPIO17
-Text GLabel 5600 1500 2    50   Input ~ 0
+Text GLabel 5700 1500 2    50   Input ~ 0
 GPIO16
 $Comp
 L Device:D_Zener D1
@@ -1153,36 +1153,19 @@ Wire Wire Line
 	4200 3750 4100 3750
 Wire Wire Line
 	4200 3850 4100 3850
-$Comp
-L Connector:Conn_01x02_Female J16
-U 1 1 5F30E014
-P 5100 4550
-F 0 "J16" H 5128 4526 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 5128 4435 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5100 4550 50  0001 C CNN
-F 3 "~" H 5100 4550 50  0001 C CNN
-	1    5100 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 4850 4550 0    50   Input ~ 0
+Text GLabel 5200 5350 2    50   Input ~ 0
 GPIO15
 $Comp
 L power:GND #PWR0135
 U 1 1 5F30EFD3
-P 4800 4700
-F 0 "#PWR0135" H 4800 4450 50  0001 C CNN
-F 1 "GND" V 4805 4572 50  0000 R CNN
-F 2 "" H 4800 4700 50  0001 C CNN
-F 3 "" H 4800 4700 50  0001 C CNN
-	1    4800 4700
+P 5200 5450
+F 0 "#PWR0135" H 5200 5200 50  0001 C CNN
+F 1 "GND" V 5205 5322 50  0000 R CNN
+F 2 "" H 5200 5450 50  0001 C CNN
+F 3 "" H 5200 5450 50  0001 C CNN
+	1    5200 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 4550 4850 4550
-Wire Wire Line
-	4900 4650 4800 4650
-Wire Wire Line
-	4800 4650 4800 4700
 $Comp
 L Device:D_Zener D6
 U 1 1 5F32D98F
@@ -1363,7 +1346,47 @@ F 3 "~" H 5400 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
+	5000 1500 5300 1500
+$Comp
+L Connector:Conn_01x03_Male J16
+U 1 1 5F1DC6D0
+P 5000 5350
+F 0 "J16" H 5108 5631 50  0000 C CNN
+F 1 "ROMI" H 5108 5540 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5000 5350 50  0001 C CNN
+F 3 "~" H 5000 5350 50  0001 C CNN
+	1    5000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D7
+U 1 1 5F1ECB50
+P 5600 1150
+F 0 "D7" V 5600 1229 50  0000 L CNN
+F 1 "D_Zener" V 5645 1229 50  0001 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 1150 50  0001 C CNN
+F 3 "~" H 5600 1150 50  0001 C CNN
+	1    5600 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5F1EDCD3
+P 5600 950
+F 0 "#PWR0139" H 5600 700 50  0001 C CNN
+F 1 "GND" V 5605 822 50  0000 R CNN
+F 2 "" H 5600 950 50  0001 C CNN
+F 3 "" H 5600 950 50  0001 C CNN
+	1    5600 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
 	5500 1500 5600 1500
 Wire Wire Line
-	5000 1500 5300 1500
+	5600 1300 5600 1500
+Connection ~ 5600 1500
+Wire Wire Line
+	5600 1500 5700 1500
+Wire Wire Line
+	5600 950  5600 1000
 $EndSCHEMATC
