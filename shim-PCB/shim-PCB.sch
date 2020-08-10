@@ -1167,19 +1167,6 @@ F 3 "" H 5200 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D6
-U 1 1 5F32D98F
-P 2850 1550
-F 0 "D6" V 2850 1629 50  0000 L CNN
-F 1 "D_Zener" V 2895 1629 50  0001 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2850 1550 50  0001 C CNN
-F 3 "~" H 2850 1550 50  0001 C CNN
-	1    2850 1550
-	0    1    1    0   
-$EndComp
-Text GLabel 2750 1300 0    50   Input ~ 0
-GPIO34
-$Comp
 L power:GND #PWR0136
 U 1 1 5F32EB84
 P 2850 1750
@@ -1202,9 +1189,9 @@ Text Notes 3000 5050 1    50   ~ 0
 Right
 Text Notes 3000 4700 1    50   ~ 0
 Left
-Text Notes 800  6450 0    50   ~ 0
+Text Notes 800  4550 0    50   ~ 0
 Left
-Text Notes 1000 4600 2    50   ~ 0
+Text Notes 950  6550 2    50   ~ 0
 Right
 $Comp
 L Connector:Conn_01x04_Male J17

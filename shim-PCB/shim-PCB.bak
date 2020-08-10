@@ -1243,7 +1243,7 @@ Wire Wire Line
 	7950 1100 7900 1100
 Wire Wire Line
 	7950 1400 7900 1400
-Text GLabel 8000 1300 2    50   Input ~ 0
+Text GLabel 8000 1200 2    50   Input ~ 0
 GPIO22
 Wire Wire Line
 	8000 1200 7900 1200
@@ -1391,7 +1391,7 @@ Wire Wire Line
 	3250 6550 3200 6550
 Text GLabel 6350 1000 2    50   Input ~ 0
 GPIO23
-Text GLabel 8000 1200 2    50   Input ~ 0
+Text GLabel 8000 1300 2    50   Input ~ 0
 SDA
 Text GLabel 3500 6400 1    50   Input ~ 0
 SDA
