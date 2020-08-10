@@ -366,9 +366,9 @@ F 3 "" H 2100 4550 50  0001 C CNN
 	1    2100 4550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2100 4650 2    50   Input ~ 0
-GPIO27
 Text GLabel 2100 4750 2    50   Input ~ 0
+GPIO27
+Text GLabel 2100 4650 2    50   Input ~ 0
 GPIO26
 Text GLabel 5100 1400 2    50   Input ~ 0
 GPIO17
@@ -1202,9 +1202,9 @@ Text Notes 3000 5050 1    50   ~ 0
 Right
 Text Notes 3000 4700 1    50   ~ 0
 Left
-Text Notes 850  4700 0    50   ~ 0
+Text Notes 800  6450 0    50   ~ 0
 Left
-Text Notes 1000 6550 1    50   ~ 0
+Text Notes 1000 4600 2    50   ~ 0
 Right
 $Comp
 L Connector:Conn_01x04_Male J17

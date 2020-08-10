@@ -1379,12 +1379,12 @@ Wire Wire Line
 Wire Wire Line
 	5600 950  5600 1000
 $Comp
-L Jumper:Jumper_3_Bridged12 JP?
+L Jumper:Jumper_3_Bridged12 JP1
 U 1 1 5F229CDD
 P 3500 6550
-F 0 "JP?" H 3500 6754 50  0000 C CNN
+F 0 "JP1" H 3500 6754 50  0000 C CNN
 F 1 "Jumper_3_Bridged12" H 3500 6663 50  0000 C CNN
-F 2 "" H 3500 6550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3500 6550 50  0001 C CNN
 F 3 "~" H 3500 6550 50  0001 C CNN
 	1    3500 6550
 	1    0    0    -1  
