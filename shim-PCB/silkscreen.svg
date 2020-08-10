@@ -1234,10 +1234,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="255.9769"
-     inkscape:cy="288.68917"
+     inkscape:cx="58.221545"
+     inkscape:cy="57.167483"
      inkscape:document-units="mm"
-     inkscape:current-layer="g838"
+     inkscape:current-layer="g824"
      showgrid="false"
      inkscape:window-width="3840"
      inkscape:window-height="2050"
@@ -3824,6 +3824,17 @@
        id="path5593"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       id="text2739-4-84-1-2-8-7"
+       y="83.63575"
+       x="13.222174"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.27596509px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0"
+         y="83.63575"
+         x="13.222174"
+         id="tspan2737-2-8-5-7-1-2"
+         sodipodi:role="line">10k</tspan></text>
   </g>
   <g
      id="g826"
@@ -3853,7 +3864,7 @@
      id="g838"
      inkscape:groupmode="layer"
      inkscape:label="F.SilkS"
-     style="display:none">
+     style="display:inline">
     <rect
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22749758;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4553-0-2-2"
@@ -5497,6 +5508,17 @@
          x="59.592373"
          id="tspan2737-2-7-7-5-7-3-2-0"
          sodipodi:role="line">LEFT </tspan></text>
+    <text
+       id="text2739-4-84-1-2-8-7-1"
+       y="83.63575"
+       x="13.222174"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.27596521px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0"
+         y="83.63575"
+         x="13.222174"
+         id="tspan2737-2-8-5-7-1-2-9"
+         sodipodi:role="line">10k</tspan></text>
   </g>
   <g
      id="g844"
