@@ -1243,8 +1243,6 @@ Wire Wire Line
 	7950 1100 7900 1100
 Wire Wire Line
 	7950 1400 7900 1400
-Text GLabel 8000 1200 2    50   Input ~ 0
-GPIO21
 Text GLabel 8000 1300 2    50   Input ~ 0
 GPIO22
 Wire Wire Line
@@ -1297,10 +1295,6 @@ Text GLabel 3200 6550 0    50   Input ~ 0
 GPIO23
 Text GLabel 3800 6550 2    50   Input ~ 0
 GPIO21
-Text GLabel 6350 1000 2    50   Input ~ 0
-SPI_DO
-Text GLabel 3500 6750 3    50   Input ~ 0
-SPI_DO
 $Comp
 L Mechanical:MountingHole ARTWORK1
 U 1 1 5F13092A
@@ -1387,7 +1381,7 @@ F 1 "Jumper_3_Bridged12" H 3500 6663 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3500 6550 50  0001 C CNN
 F 3 "~" H 3500 6550 50  0001 C CNN
 	1    3500 6550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3800 6550 3750 6550
@@ -1395,4 +1389,10 @@ Wire Wire Line
 	3500 6700 3500 6750
 Wire Wire Line
 	3250 6550 3200 6550
+Text GLabel 6350 1000 2    50   Input ~ 0
+GPIO23
+Text GLabel 8000 1200 2    50   Input ~ 0
+SDA
+Text GLabel 3500 6400 1    50   Input ~ 0
+SDA
 $EndSCHEMATC
