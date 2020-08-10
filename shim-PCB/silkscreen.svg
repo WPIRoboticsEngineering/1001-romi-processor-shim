@@ -626,17 +626,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="145.15191"
-     inkscape:cy="221.17278"
+     inkscape:zoom="22.4"
+     inkscape:cx="240.10146"
+     inkscape:cy="338.13593"
      inkscape:document-units="mm"
-     inkscape:current-layer="g838"
+     inkscape:current-layer="g842"
      showgrid="false"
-     inkscape:window-width="1920"
+     inkscape:window-width="3840"
      inkscape:window-height="2050"
-     inkscape:window-x="1908"
+     inkscape:window-x="-12"
      inkscape:window-y="-12"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      borderlayer="true">
     <inkscape:grid
        id="grid816"
@@ -3189,6 +3189,30 @@
          x="-57.937157"
          id="tspan2737-8-0-0-7-7-3-0-5"
          sodipodi:role="line">USB ON THIS SIDE</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text2739-4-8-0-5-5-1-9-4-7"
+       y="65.310631"
+       x="-15.352345"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.92720568px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0"
+         y="65.310631"
+         x="-15.352345"
+         id="tspan2737-2-7-7-5-7-3-2-0-9"
+         sodipodi:role="line">LEFT ENC</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text2739-4-8-0-5-5-1-9-46"
+       y="12.148287"
+       x="-25.063002"
+       style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.92720568px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0"
+         y="12.148287"
+         x="-25.063002"
+         id="tspan2737-2-7-7-5-7-3-2-6"
+         sodipodi:role="line">RIGHT ENC</tspan></text>
   </g>
   <g
      id="g826"
@@ -3218,7 +3242,7 @@
      id="g838"
      inkscape:groupmode="layer"
      inkscape:label="F.SilkS"
-     style="display:inline">
+     style="display:none">
     <rect
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22749758;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4553-0-2-2"
@@ -3440,6 +3464,12 @@
        x="43.701061"
        y="27.821665"
        ry="0.43848887" />
+    <path
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25399992;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.165351,82.354192 c -0.242922,0 -0.438732,0.195811 -0.438732,0.438734 v 0.677476 c 0,0.242925 0.19581,0.438215 0.438732,0.438215 h 0.34675 v -1.554425 z m 0.34675,0 v 1.554425 h 3.563091 c 0.242922,0 0.438732,-0.19529 0.438732,-0.438215 v -0.677476 c 0,-0.242923 -0.19581,-0.438734 -0.438732,-0.438734 z"
+       id="rect8738-0-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssccsccssssc" />
   </g>
   <g
      id="g840"
@@ -4828,6 +4858,30 @@
          x="-57.937157"
          id="tspan2737-8-0-0-7-7-3-0-5-9"
          sodipodi:role="line">USB ON THIS SIDE</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text2739-4-8-0-5-5-1-9"
+       y="12.148287"
+       x="-25.063002"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.92720568px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0"
+         y="12.148287"
+         x="-25.063002"
+         id="tspan2737-2-7-7-5-7-3-2"
+         sodipodi:role="line">RIGHT ENC</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text2739-4-8-0-5-5-1-9-4"
+       y="65.310631"
+       x="-15.352345"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.92720568px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0"
+         y="65.310631"
+         x="-15.352345"
+         id="tspan2737-2-7-7-5-7-3-2-0"
+         sodipodi:role="line">LEFT ENC</tspan></text>
   </g>
   <g
      id="g844"
